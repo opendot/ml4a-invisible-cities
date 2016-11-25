@@ -22,7 +22,7 @@ permalink: /team/
 
     <div class="unit one-third">
       <div class="project">
-        <h4 class="project-title"><a href="#">Gabriele Gambotto</a></h4>
+        <h4 class="project-title"><a href="http://cargocollective.com/wedontplay/U-I">Gabriele Gambotto</a></h4>
       </div>
     </div>
 
@@ -40,7 +40,6 @@ permalink: /team/
         <h4 class="project-title"><a href="https://twitter.com/ABoleslavsky">Andrej Bolesvlasky</a></h4>
       </div>
     </div>
-
 
     <div class="unit one-third">
       <div class="project">
@@ -63,3 +62,5 @@ permalink: /team/
 
 </div>
 {:/}
+
+Made during [Machine learning for artists workshop](http://www.opendotlab.it/it/content/workshop-machine-learning-artists) at OpenDot, 21-25 November 2016.
