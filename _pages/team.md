@@ -8,8 +8,7 @@ permalink: /team/
 
 {::nomarkdown}
 <div>
-<!-- {% for image in site.static_files %}    
-    {% if image.path contains 'team/' %} -->
+
 
 <div class="projects">
   <div class="grid no-gutters">
@@ -75,8 +74,6 @@ permalink: /team/
   </div><!-- grid -->
 </div>
 
-<!-- {% endif %}
-{% endfor %} -->
 
 </div>
 {:/}
