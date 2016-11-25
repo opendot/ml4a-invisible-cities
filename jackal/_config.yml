@@ -1,0 +1,69 @@
+# The main config file for your Jekyll template
+
+# Site settings
+title: Jackal               # used for the html title of every page
+desc: >
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+url: http://jackal.com      # put your website hosting url here
+baseurl: ''                 # the subpath of your site, e.g. /blog
+permalink: /:year/:title/   # how should we display posts url
+
+# Meta settings
+email: jackal@gmail.com
+author: The Jackal
+twitter_username: clenemt
+github_username: clenemt
+github_source: jackal
+
+# Put your ga tracking code below
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Pagination settings
+paginate: 5                           # number of posts to show per page
+paginate_path: "/articles/page:num/"  # link scheme for articles, should be letf as is
+
+# Navigation settings
+# Used to define the navigation menu items
+# > Title is the tile of the navigation item, url the url and desc is the tooltip
+navigation:
+  - title: Articles
+    url: /articles/
+    desc: Stuffs I write about
+  - title: Projects
+    url: /projects/
+    desc: Stuffs I like to do
+  - title: Work
+    url: /work/
+    desc: Stuffs I hate to do
+  - title: About
+    url: /about/
+    desc: Learn about me
+
+# Used by Jekyll to recognize what is a post and what is a page
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+
+# Markdown parser settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false          # you can change this if you feel like it
+  parse_block_html: true    # allow parsing html inside markdown
+
+# Build settings
+include:
+  - _pages                  # all your pages can be put inside pages (except articles)
+exclude:
+  - README.md
+  - vendor
+gems:
+  - jekyll-paginate
+
