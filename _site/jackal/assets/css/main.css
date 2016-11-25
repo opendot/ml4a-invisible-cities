@@ -22,7 +22,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: #333;
-  background-color: #fafaf8;
+  background-color: #fff;
   margin: 0; }
 
 article,
@@ -371,7 +371,7 @@ h6 {
 
 .pretty-links a {
   color: #4072AF;
-  text-shadow: 0.04545em 0 0 #fafaf8, 0.09091em 0 0 #fafaf8, 0.13636em 0 0 #fafaf8, -0.04545em 0 0 #fafaf8, -0.09091em 0 0 #fafaf8, -0.13636em 0 0 #fafaf8, 0 0.04545em 0 #fafaf8, 0 0.09091em 0 #fafaf8, 0 -0.04545em 0 #fafaf8, 0 -0.09091em 0 #fafaf8;
+  text-shadow: 0.04545em 0 0 #fff, 0.09091em 0 0 #fff, 0.13636em 0 0 #fff, -0.04545em 0 0 #fff, -0.09091em 0 0 #fff, -0.13636em 0 0 #fff, 0 0.04545em 0 #fff, 0 0.09091em 0 #fff, 0 -0.04545em 0 #fff, 0 -0.09091em 0 #fff;
   background-image: linear-gradient(#4072AF, #4072AF);
   background-position: 0 1.10em;
   background-size: 1px 1px;
@@ -386,7 +386,7 @@ h6 {
     transition: none;
     text-shadow: none;
     background: #4072AF;
-    color: #fafaf8;
+    color: #fff;
     text-decoration: none; }
 
 hr {
@@ -517,9 +517,8 @@ kbd {
     margin-right: 1.5rem; } }
 @media (min-width: 768px) {
   .site-logo {
-    margin-left: 0.5rem;
-    width: 3.5rem;
-    height: 3.5rem; }
+    width: 6.5rem;
+    height: auto; }
 
   .site-nav {
     float: right;
