@@ -26,7 +26,7 @@ permalink: /team/
     <div class="unit one-third">
       <div class="project">
         <h4 class="project-title"><a href="sample-project/">Gabriele Gambotto</a></h4>
-        <img src="{{ site.baseurl }}/assets/team/2.jpeg" alt="image" />
+        <img src="{{ site.baseurl }}/assets/team/2.jpg" alt="image" />
         <p><em>Quoque videri</em>: sibi in qua nexibus rapto, Munychiosque bracchia sua pars, iram nec tonitruque. Quisquis thalamis Lyncides e remorum an omnibus monstri dempta. Mea tecta! Orbem haut non procumbit <em>facit</em>.</p>
       </div>
     </div>
