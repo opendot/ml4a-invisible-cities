@@ -12,11 +12,11 @@ baseurl: ''                 # the subpath of your site, e.g. /blog
 permalink: /:year/:title/   # how should we display posts url
 
 # Meta settings
-email: opendotlab@gmail.com
+email: info@opendotlab.it
 author: VVAA
 twitter_username: opendotlab
 github_username: opendotlab
-github_source: opendotlab
+github_source: ml4a-invisible-cities
 
 # Put your ga tracking code below
 # google_analytics: 'UA-XXXXXXXX-X'
