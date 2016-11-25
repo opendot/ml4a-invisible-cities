@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Implementation
-subtitle: how it works.
 desc: how it works.
 permalink: /implementation/
 ---
-## How it works
-We were fascinated by the possibility of generating new and non-existent but realistic images using conditional adversarial neural networks that *remembers* a certain set of features from the things it has seen in the past: the same process that we humans undergo when we dream.
+
+We were fascinated by the possibility of generating new and non-existent but realistic images using conditional adversarial neural networks that *remembers* a certain set of features from the things it has seen in the past: the same process that we humans undergo when we dream. 
 
 ### Dataset
 Taking inspiration from the given examples, we applied a pre-defined color scheme to geographic data ([OpenStreetMap](http://www.openstreetmap.org)) using [Mapbox Studio](https://www.mapbox.com): roads, green spaces, buildings, water were styled with different colours (black, green, red, blue), so that the neural network (NN) could compare these to aerial images and learn the different features.

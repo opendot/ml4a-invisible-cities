@@ -71,13 +71,13 @@ blockquote {
   margin: 0 0 1rem; }
 
 a {
-  color: #4072AF;
+  color: #0000FF;
   text-decoration: none;
   background-color: transparent; }
   a:active, a:hover {
     outline-width: 0; }
   a:hover, a:focus {
-    color: #254164;
+    color: #000099;
     text-decoration: underline; }
   a:focus {
     outline: thin dotted;
@@ -370,29 +370,29 @@ h6 {
     margin-bottom: 1.5rem; }
 
 .pretty-links a {
-  color: #4072AF;
+  color: #0000FF;
   text-shadow: 0.04545em 0 0 #fff, 0.09091em 0 0 #fff, 0.13636em 0 0 #fff, -0.04545em 0 0 #fff, -0.09091em 0 0 #fff, -0.13636em 0 0 #fff, 0 0.04545em 0 #fff, 0 0.09091em 0 #fff, 0 -0.04545em 0 #fff, 0 -0.09091em 0 #fff;
-  background-image: linear-gradient(#4072AF, #4072AF);
+  background-image: linear-gradient(#0000FF, #0000FF);
   background-position: 0 1.10em;
   background-size: 1px 1px;
   background-repeat: repeat-x;
   text-decoration: none; }
   .pretty-links a:hover, .pretty-links a:active {
-    color: #254164;
+    color: #000099;
     text-decoration: none;
-    background-image: linear-gradient(#254164, #254164); }
+    background-image: linear-gradient(#000099, #000099); }
   .pretty-links a:focus {
     outline: 0;
     transition: none;
     text-shadow: none;
-    background: #4072AF;
+    background: #0000FF;
     color: #fff;
     text-decoration: none; }
 
 hr {
   margin: 1rem 0 1.5rem;
   border: 0;
-  border-top: 5px solid #e1e9f4; }
+  border-top: 5px solid #e6e6ff; }
 
 small,
 .small {
@@ -497,10 +497,10 @@ kbd {
   transition: background 0.1s ease-out; }
   .site-nav a:hover {
     text-decoration: none;
-    color: #4072AF;
-    background-color: #e1e9f4; }
+    color: #0000FF;
+    background-color: #e6e6ff; }
   .site-nav a:focus, .site-nav a:active {
-    background-color: #4072AF;
+    background-color: #0000FF;
     text-decoration: none;
     color: #fff; }
   .site-nav a.current {
@@ -539,7 +539,7 @@ kbd {
   margin: 4rem 0 6rem;
   padding-top: 1.5rem;
   font-family: "Lato", serif;
-  border-top: 1px solid #e1e9f4; }
+  border-top: 1px solid #e6e6ff; }
 
 .site-footer ul, .site-footer li {
   margin-bottom: 0;
@@ -565,7 +565,7 @@ kbd {
 .site-contact li:not(:last-child)::after,
 .site-source li:not(:last-child)::after {
   content: '|';
-  color: #e1e9f4;
+  color: #e6e6ff;
   margin: 0 0.3rem 0 0.5rem; }
 
 @media (min-width: 480px) {
@@ -578,12 +578,12 @@ kbd {
     float: left;
     width: 50%; } }
 ::-moz-selection {
-  background-color: #4072AF;
+  background-color: #0000FF;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background-color: #4072AF;
+  background-color: #0000FF;
   color: #fff;
   text-shadow: none; }
 
@@ -657,7 +657,7 @@ kbd {
   padding-left: 0;
   margin-top: 2rem; }
   .post-list .post-title {
-    color: #4072AF;
+    color: #0000FF;
     margin-bottom: 0.5rem; }
   .post-list .post {
     margin-bottom: 2rem; }
@@ -685,7 +685,7 @@ p.post-desc {
   display: block;
   width: 3rem;
   height: 5px;
-  background: #e1e9f4; }
+  background: #e6e6ff; }
 
 .post-link::after {
   -webkit-transform-origin: left center;
@@ -707,11 +707,11 @@ p.post-desc {
   margin-bottom: 1.5rem; }
   .project-title a {
     font-weight: bold;
-    border-bottom: 5px solid #e1e9f4;
+    border-bottom: 5px solid #e6e6ff;
     padding-bottom: 0.5rem; }
     .project-title a:hover, .project-title a:focus {
       text-decoration: none;
-      border-bottom-color: #4072AF; }
+      border-bottom-color: #0000FF; }
 
 @media (min-width: 768px) {
   .projects {
@@ -720,7 +720,7 @@ p.post-desc {
   .project-title {
     margin-bottom: 2rem; } }
 .lead-about {
-  color: #254164; }
+  color: #000099; }
 
 .site-profile {
   float: right;
