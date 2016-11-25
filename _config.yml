@@ -19,7 +19,7 @@ github_username: opendotlab
 github_source: opendotlab
 
 # Put your ga tracking code below
-google_analytics: 'UA-XXXXXXXX-X'
+# google_analytics: 'UA-XXXXXXXX-X'
 
 # Pagination settings
 paginate: 5                           # number of posts to show per page
