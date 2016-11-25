@@ -2,7 +2,8 @@
 A project made during "Machine Learning for Artists workshop" with [Gene Kogan](https://github.com/genekogan) @[Opendotlab](http://www.opendotlab.it)
 
 ## Concept
-“With cities, it is as with dreams: everything imaginable can be dreamed, but even the most unexpected dream is a rebus that conceals a desire or, its reverse, a fear. Cities, like dreams, are made of desires and fears, even if the thread of their discourse is secret, their rules are absurd, their perspectives deceitful, and everything conceals something else.” 
+*“With cities, it is as with dreams: everything imaginable can be dreamed, but even the most unexpected dream is a rebus that conceals a desire or, its reverse, a fear. Cities, like dreams, are made of desires and fears, even if the thread of their discourse is secret, their rules are absurd, their perspectives deceitful, and everything conceals something else.”*
+
 _― [Italo Calvino](https://en.wikipedia.org/wiki/Italo_Calvino), Invisible Cities_
 
 The idea is to create an imaginary city from a hand-drawn sketch. Trained with aerial images of real cities, a neural network can transform this into a realistic bird-eye-view city.
@@ -17,22 +18,22 @@ Taking inspiration from the given examples, we applied a pre-defined color schem
 ![](./images/Venice-LA01.jpg)
 
 ### Training, evaluating, running
-We then use [vvvv](https://vvvv.org) as a tool to collect satellite map tiles and generate images to train the network. The training consisted in comparing the output images with a validation set, and then test it on our sketches.
+We then used [vvvv](https://vvvv.org) as a tool to collect satellite map tiles and generate images to train the network. The training consisted in comparing the output images with a validation set, and then test it on our sketches.
 
-![](./images/example01.jpg)
+![](./images/01.jpg)
 
 It then produces a set of images according to the unique characteristics of each city: the same blue shade will translate to a venetian canal or a simple river, red will became a 17th century villa or a 50s modernist house in the hills of L.A.
 
-![](./images/example02.jpg)
+![](./images/02.jpg)
 
 To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field or a dumpster.
 
 
 ## Gallery
 
-![](./images/example03.jpg)
-![](./images/example04.jpg)
-![](./images/example05.jpg)
+![](./images/03.jpg)
+![](./images/04.jpg)
+![](./images/05.jpg)
 
 ## Team
 - Gene Kogan
