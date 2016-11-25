@@ -31,9 +31,14 @@ To encompass the variability of all geographic features, we left the background 
 
 ## Gallery
 
+### City style transfer
 ![](./images/03.jpg)
 ![](./images/04.jpg)
 ![](./images/05.jpg)
+
+### Imaginary maps
+![](./images/07.jpg)
+![](./images/08.jpg)
 
 ## Team
 - Gene Kogan
