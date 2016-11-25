@@ -478,7 +478,7 @@ kbd {
     clear: both; }
 
 .site-logo {
-  width: 4rem;
+  width: 20rem;
   height: auto; }
 
 .site-nav {
@@ -517,22 +517,22 @@ kbd {
     margin-right: 1.5rem; } }
 @media (min-width: 768px) {
   .site-logo {
-    width: 6.5rem;
+    width: 20rem;
     height: auto; }
 
   .site-nav {
     float: right;
-    width: 80%;
+    width: 50%;
     margin-top: 0.5rem;
     justify-content: space-around;
-    font-size: 1.25rem; }
+    font-size: 1rem; }
     .site-nav a {
       margin-right: 0;
       padding: 0.25rem 0.5rem; }
 
   .site-title {
     float: left;
-    width: 20%;
+    width: 30%;
     text-align: inherit;
     margin-bottom: 0.5rem; } }
 .site-footer {

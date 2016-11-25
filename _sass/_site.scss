@@ -20,7 +20,7 @@
 }
 
 .site-logo {
-  width: 4rem;
+  width: 20rem;
   height: auto;
 }
 
@@ -78,16 +78,16 @@
 @include mq-up(md) {
   .site-logo {
     // margin-left: $spacer0;
-    width: 6.5rem;
+    width: 20rem;
     height: auto;
   }
 
   .site-nav {
     float: right;
-    width: 80%;
+    width: 50%;
     margin-top: $spacer0;
     justify-content: space-around;
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     a {
       margin-right: 0;
@@ -97,7 +97,7 @@
 
   .site-title {
     float: left;
-    width: 20%;
+    width: 30%;
     text-align: inherit;
     margin-bottom: $spacer0;
   }
