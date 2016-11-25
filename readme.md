@@ -10,7 +10,7 @@ The idea is to create an imaginary city from a hand-drawn sketch. Trained with a
 Then, switching between different cities references it would be possible to generate different views of the same imaginary city.
 
 ## How it works
-We were fascinated by the possibility of generating new and non-existent but realistic images thanks to a neural network that *remembers* a certain set of features from the things it has seen in the past: the same process that we humans undergo when we dream.
+We were fascinated by the possibility of generating new and non-existent but realistic images using conditional adversarial neural networks that *remembers* a certain set of features from the things it has seen in the past: the same process that we humans undergo when we dream. 
 
 ### Dataset 
 Taking inspiration from the given examples, we applied a pre-defined color scheme to geographic data ([OpenStreetMap](http://www.openstreetmap.org)) using [Mapbox Studio](https://www.mapbox.com): roads, green spaces, buildings, water were styled with different colours (black, green, red, blue), so that the neural network (NN) could compare these to aerial images and learn the different features.
@@ -18,7 +18,8 @@ Taking inspiration from the given examples, we applied a pre-defined color schem
 ![](./images/Venice-LA01.jpg)
 
 ### Training, evaluating, running
-We then used [vvvv](https://vvvv.org) as a tool to collect satellite map tiles and generate images to train the network. The training consisted in comparing the output images with a validation set, and then test it on our sketches.
+We then used [vvvv](https://vvvv.org) as a tool to collect both satellite imagery and associated labeled map tiles. 
+We trained a conditional generative adversarial network to recontruct the satellite imagery from its map tiles. 
 
 ![](./images/01.jpg)
 
