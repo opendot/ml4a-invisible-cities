@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Gallery
-subtitle: Eye-candy.
-desc: Eye-candy.
+subtitle: Gallery
+desc: Gallery
 permalink: /gallery/
 ---
 <!-- {{ site.baseurl }} -->
