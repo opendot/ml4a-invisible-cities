@@ -19,15 +19,15 @@ We then used [vvvv](https://vvvv.org) as a tool to collect both satellite imager
 We trained a conditional generative adversarial network to recontruct the satellite imagery from its map tiles.
 
 
-{::nomarkdown}
+
 <img src="{{ site.baseurl }}/assets/images/01.jpg" alt="image" />
-{::}
+
 
 It then produces a set of images according to the unique characteristics of each city: the same blue shade will translate to a venetian canal or a simple river, red will became a 17th century villa or a 50s modernist house in the hills of L.A.
 
-{::nomarkdown}
+
 <img src="{{ site.baseurl }}/assets/images/02.jpg" alt="image" />
-{::}
+
 
 
 To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field or a dumpster.
