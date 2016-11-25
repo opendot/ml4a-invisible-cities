@@ -10,8 +10,7 @@ _― [Italo Calvino](https://en.wikipedia.org/wiki/Italo_Calvino), Invisible Cit
 
 ![opendot-venice]({{ site.baseurl }}/assets/images/02.jpg)
 
-The idea is to create an imaginary city from a hand-drawn sketch. Trained with aerial images of real cities, a neural network can transform this into a realistic bird-eye-view city.
-Then, switching between different cities references it would be possible to generate different views of the same imaginary city.
+The idea is to create an imaginary city from a hand-drawn sketch. Trained with aerial images of real cities, a neural network can transform this into a realistic bird-eye-view city. Then, switching between different cities references it would be possible to generate different views of the same imaginary city.
 
 A project made during "Machine Learning for Artists workshop" with [Gene Kogan](https://github.com/genekogan) @[Opendotlab](http://www.opendotlab.it)
 ![opendot-venice]({{ site.baseurl }}/assets/main.png)
