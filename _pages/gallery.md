@@ -15,6 +15,7 @@ With this technique, we fed map tiles of one city to the generative model of ano
 <img src="{{ site.baseurl }}/assets/images/03.jpg" alt="image" />
 <img src="{{ site.baseurl }}/assets/images/04.jpg" alt="image" />
 <img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" />
+
 ### Imaginary maps
 
 Here we feed completely handdrawn tiles to the models, producing hallucinations of cities.
