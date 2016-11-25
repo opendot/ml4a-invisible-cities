@@ -8,7 +8,7 @@ permalink: /team/
 
 {::nomarkdown}
 <div>
-{% for image in site.static_files %}
+{% for image in {{ site.baseurl }}/assets/team %}
     {% if image.path contains 'team/' %}
 
 <div class="projects">

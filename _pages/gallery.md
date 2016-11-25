@@ -8,7 +8,7 @@ permalink: /gallery/
 <!-- {{ site.baseurl }} -->
 {::nomarkdown}
 <div>
-{% for image in {{ site.baseurl }}/assets/team %}
+{% for image in site.static_files %}
     {% if image.path contains 'images/' %}
         <img src="{{ site.baseurl }}/assets/images/{{ image.name }}" alt="image" />
     {% endif %}
