@@ -21,16 +21,3 @@ Here we feed completely handdrawn tiles to the models, producing hallucinations 
 
 <img src="{{ site.baseurl }}/assets/images/07.jpg" alt="image" />
 <img src="{{ site.baseurl }}/assets/images/08.jpg" alt="image" />
-
-
-<div>
-
-{::nomarkdown}
-{% for image in site.static_files %}
-    {% if image.path contains 'images/' %}
-        <img src="{{ site.baseurl }}/assets/images/{{ image.name }}" alt="image" />
-    {% endif %}
-{% endfor %}
-
-</div>
-{:/}
