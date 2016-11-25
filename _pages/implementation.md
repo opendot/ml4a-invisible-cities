@@ -30,3 +30,5 @@ It then produces a set of images according to the unique characteristics of each
 
 
 To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field or a dumpster.
+
+<img src="{{ site.baseurl }}/assets/images/06.jpg" alt="image" />
