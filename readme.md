@@ -11,12 +11,12 @@ Then, switching between different cities references it would be possible to gene
 ## How it works
 We were fascinated by the possibility of generating new and non-existent but realistic images thanks to a neural network that *remembers* a certain set of features from the things it has seen in the past: the same process that we humans undergo when we dream.
 
-### dataset 
+### Dataset 
 Taking inspiration from the given examples, we applied a pre-defined color scheme to geographic data ([OpenStreetMap](http://www.openstreetmap.org)) using [Mapbox Studio](https://www.mapbox.com): roads, green spaces, buildings, water were styled with different colours (black, green, red, blue), so that the neural network (NN) could compare these to aerial images and learn the different features.
 
 ![](./images/Venice-LA01.jpg)
 
-### training, evaluate, running
+### Training, evaluating, running
 We then use [vvvv](https://vvvv.org) as a tool to collect satellite map tiles and generate images to train the network. The training consisted in comparing the output images with a validation set, and then test it on our sketches.
 
 ![](./images/example01.jpg)
@@ -35,13 +35,13 @@ To encompass the variability of all geographic features, we left the background 
 ![](./images/example05.jpg)
 
 ## Team
-Gene Kogan
-Gabriele Gambotto
-Ambhika Samsen
-Andrej Bolesvlasky 
-Michele Ferretti
-Damiano Gui
-Fabian Frei
+- Gene Kogan
+- Gabriele Gambotto
+- Ambhika Samsen
+- Andrej Bolesvlasky 
+- Michele Ferretti
+- Damiano Gui
+- Fabian Frei
 
 ## Credits
 All credit for the algorithm development to “Image-to-Image Translation Using Conditional Adversarial Networks” by  
