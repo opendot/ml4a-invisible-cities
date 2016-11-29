@@ -20,4 +20,6 @@ Also, we can create imaginary cities by hand-drawing sketches and feeding them t
 <a href="{{ site.baseurl }}/assets/main.png"><img src="{{ site.baseurl }}/assets/main.png" alt="image" /></a>
 </div>
 
-The project was inspired by the 1972 book [Invisible Cities (Le città invisibili)](https://en.wikipedia.org/wiki/Invisible_Cities) by [Italo Calvino](https://en.wikipedia.org/wiki/Italo_Calvino) which explores the imaginary and often magical cities of the Mongol Empire, framed as a poetic and surreal conversation between the explorer Marco Polo and the emperor Kublai Khan.
+A gallery with more samples can be [found here](/ml4a-invisible-cities/implementation/).
+
+The project was inspired by the 1972 book [Invisible Cities (Le città invisibili)](https://en.wikipedia.org/wiki/Invisible_Cities) by [Italo Calvino](https://en.wikipedia.org/wiki/Italo_Calvino), which explores the imaginary and often magical cities of the Mongol Empire, framed as a poetic and surreal conversation between the explorer Marco Polo and the emperor Kublai Khan.
