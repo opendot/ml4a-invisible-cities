@@ -10,12 +10,16 @@ permalink: /gallery/
 
 ### City style transfer
 
-With this technique, we fed map tiles of one city to the generative model of another city, producing sattelite imagery of the former in the style of the latter.
+With this technique, we fed map tiles of one city to the generative model of another city, producing satellite imagery of the former in the style of the latter.
 
 <div style="margin-left:-250px; margin-right:-250px">
 <a href="{{ site.baseurl }}/assets/images/03.jpg"><img src="{{ site.baseurl }}/assets/images/03.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/04.jpg"><img src="{{ site.baseurl }}/assets/images/04.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/05.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/09.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/10.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/11.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/12.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
 </div>
 
 ### Imaginary maps
