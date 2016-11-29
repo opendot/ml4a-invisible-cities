@@ -16,10 +16,10 @@ With this technique, we fed map tiles of one city to the generative model of ano
 <a href="{{ site.baseurl }}/assets/images/03.jpg"><img src="{{ site.baseurl }}/assets/images/03.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/04.jpg"><img src="{{ site.baseurl }}/assets/images/04.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/05.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
-<a href="{{ site.baseurl }}/assets/images/09.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
-<a href="{{ site.baseurl }}/assets/images/10.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
-<a href="{{ site.baseurl }}/assets/images/11.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
-<a href="{{ site.baseurl }}/assets/images/12.jpg"><img src="{{ site.baseurl }}/assets/images/05.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/09.jpg"><img src="{{ site.baseurl }}/assets/images/09.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/10.jpg"><img src="{{ site.baseurl }}/assets/images/10.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/11.jpg"><img src="{{ site.baseurl }}/assets/images/11.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/12.jpg"><img src="{{ site.baseurl }}/assets/images/12.jpg" alt="image" /></a>
 </div>
 
 ### Imaginary maps
