@@ -53,7 +53,7 @@ Here we feed completely handdrawn tiles to the models, producing hallucinations 
 - Gene Kogan
 - Gabriele Gambotto
 - Ambhika Samsen
-- Andrej Bolesvlasky 
+- Andrej Boleslavsky 
 - Michele Ferretti
 - Damiano Gui
 - Fabian Frei
