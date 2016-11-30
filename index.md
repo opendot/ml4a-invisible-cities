@@ -9,7 +9,7 @@ _― [Italo Calvino](https://en.wikipedia.org/wiki/Italo_Calvino), Invisible Cit
 A project made during "Machine Learning for Artists workshop" with [Gene Kogan](https://github.com/genekogan) @[Opendotlab](http://www.opendotlab.it)
 
 <div style="margin-left:-250px; margin-right:-250px">
-<a href="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg"><img src="{{ site.baseurl }}/assets/images/02.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg" alt="image" /></a>
 </div>
 
 In this project, we [trained a neural network](/ml4a-invisible-cities/implementation/) to translate map tiles into generative satellite images. We trained individual models for several cities--Milan, Venice, and Los Angeles--allowing us to do city map style transfer (example above) by applying the aerial model of one city onto the map tiles of another.
