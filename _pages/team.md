@@ -22,7 +22,7 @@ permalink: /team/
 
     <div class="unit one-third">
       <div class="project">
-        <h4 class="project-title"><a href="http://cargocollective.com/wedontplay/U-I">Gabriele Gambotto</a></h4>
+        <h4 class="project-title"><a href="http://leva.io/">Gabriele Gambotto</a></h4>
       </div>
     </div>
 
