@@ -28,7 +28,7 @@ permalink: /team/
 
     <div class="unit one-third">
       <div class="project">
-        <h4 class="project-title"><a href="https://twitter.com/JibSamsen">Ambhika Samsen</a></h4>
+        <h4 class="project-title"><a href="http://ambhikasamsen.com/">Ambhika Samsen</a></h4>
       </div>
     </div>
   </div><!-- grid -->
