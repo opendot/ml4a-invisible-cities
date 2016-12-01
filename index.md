@@ -8,7 +8,7 @@ _― [Italo Calvino](https://en.wikipedia.org/wiki/Italo_Calvino), Invisible Cit
 
 A project made during "Machine Learning for Artists workshop" with [Gene Kogan](https://github.com/genekogan) @[Opendotlab](http://www.opendotlab.it)
 
-<div style="margin-left:-250px; margin-right:-250px">
+<div class="site-content-imgs">
 <a href="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg" alt="image" /></a>
 </div>
 
@@ -16,7 +16,7 @@ In this project, we [trained a neural network](/ml4a-invisible-cities/implementa
 
 Also, we can create imaginary cities by hand-drawing sketches and feeding them to the generative model.
 
-<div style="margin-left:-250px; margin-right:-250px">
+<div class="site-content-imgs">
 <a href="{{ site.baseurl }}/assets/main.png"><img src="{{ site.baseurl }}/assets/main.png" alt="image" /></a>
 </div>
 

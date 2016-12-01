@@ -14,7 +14,7 @@
   </title>
 
   <!-- SEO metas -->
-  <meta name="description" content="how it works.">
+  <meta name="description" content="How it works.">
   <link rel="canonical" href="http://localhost:4000/implementation/">
   <link rel="alternate" type="application/rss+xml" title="Invisible Cities" href="http://localhost:4000/feed.xml">
 
@@ -58,6 +58,10 @@
       
     <a href="/credits/"   title="credits" >Credits</a>
     
+      
+      
+    <a href="/press/"   title="press" >Press</a>
+    
   </nav>
 
 </header>
@@ -68,28 +72,33 @@
         <article class="page">
 
   
+  <header class="page-header">
+    <h1 class="page-title">How it works.</h1>
+  </header>
+  
 
   <div class="page-content">
-    <p>We were fascinated by the possibility of generating new and non-existent but realistic images using conditional adversarial neural networks that <em>remembers</em> a certain set of features from the things it has seen in the past: the same process that we humans undergo when we dream.</p>
+    <p>We were fascinated by the possibility of generating new and non-existent but realistic images using conditional adversarial neural networks that <em>remembers</em> a certain set of features from what it has seen in the past; the same process that we humans undergo when we dream.</p>
 
 <h3 id="dataset">Dataset</h3>
-<p>Taking inspiration from the given examples, we applied a pre-defined color scheme to geographic data (<a href="http://www.openstreetmap.org">OpenStreetMap</a>) using <a href="https://www.mapbox.com">Mapbox Studio</a>: roads, green spaces, buildings, water were styled with different colours (black, green, red, blue), so that the neural network (NN) could compare these to aerial images and learn the different features.</p>
+<p>Taking inspiration from the given examples, we applied a pre-defined color scheme to geographic data (<a href="http://www.openstreetmap.org">OpenStreetMap</a>) using <a href="https://www.mapbox.com">Mapbox Studio</a>: roads, green spaces, buildings, water were styled with different colours (black, green, red, blue), so that the neural network (NN) could compare these to aerial images and learn the correspondence between them.</p>
 
-<p><img src="/assets/Venice-LA01.jpg" alt="image" /></p>
+<p><a href="/assets/images/groundtruth.jpg"><img src="/assets/images/groundtruth.jpg" alt="image" /></a></p>
 
 <h3 id="training-evaluating-running">Training, evaluating, running</h3>
-<p>We then used <a href="https://vvvv.org">vvvv</a> as a tool to collect both satellite imagery and associated labeled map tiles.
-We trained a conditional generative adversarial network to recontruct the satellite imagery from its map tiles.</p>
+<p>We then used <a href="https://vvvv.org">vvvv</a> as a tool to collect both satellite imagery and the associated labeled map tiles. We trained a <a href="https://arxiv.org/pdf/1611.07004v1.pdf">conditional generative adversarial network</a>, using <a href="https://github.com/phillipi/pix2pix">pix2pix</a> to reconstruct the satellite imagery from its map tiles. The sample below on the right shows the reconstructed sattelite image of the given map tile, closely resembling to the original on the left.</p>
 
-<p><img src="/assets/images/01.jpg" alt="image" /></p>
+<div style="margin-left:-250px; margin-right:-250px">
+  <p><a href="/assets/images/01.jpg"><img src="/assets/images/01.jpg" alt="image" /></a></p>
+</div>
 
-<p>It then produces a set of images according to the unique characteristics of each city: the same blue shade will translate to a venetian canal or a simple river, red will became a 17th century villa or a 50s modernist house in the hills of L.A.</p>
+<p>Using this process, we trained generative models on map tiles from several cities around the world, and generated samples from them, each differentiated by the unique characteristics of each city; the same blue shade will translate to a venetian canal or a simple river, red will became a 17th century villa or a 50s modernist house in the hills of L.A.</p>
 
-<p><img src="/assets/images/02.jpg" alt="image" /></p>
+<div style="margin-left:-250px; margin-right:-250px">
+  <p><a href="/assets/images/02.jpg"><img src="/assets/images/02.jpg" alt="image" /></a></p>
+</div>
 
-<p>To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field or a dumpster.</p>
-
-<p><img src="/assets/images/06.jpg" alt="image" /></p>
+<p>To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field, a dumpster, or many other unexpected objects. Curiously, the model of Venice learned to hallucinate fake boats in the canals, where none had been present in the original images!</p>
 
   </div>
 

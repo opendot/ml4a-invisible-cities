@@ -13,7 +13,7 @@
   </title>
 
   <!-- SEO metas -->
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  <meta name="description" content="Generating satellite images of imaginary cities with a conditional generative adversarial network.  A project by Gene Kogan, Gabriele Gambotto, Ambhika Samsen, Andrej Boleslavský, Michele Ferretti, Damiano Gui, Fabian Frei. Based on “Image-to-Image Translation Using Conditional Adversarial Networks” by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros published in arxiv, 2016.
 ">
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="Invisible Cities" href="http://localhost:4000/feed.xml">
@@ -58,6 +58,10 @@
       
     <a href="/credits/"   title="credits" >Credits</a>
     
+      
+      
+    <a href="/press/"   title="press" >Press</a>
+    
   </nav>
 
 </header>
@@ -69,14 +73,23 @@
 
 <p><em>― <a href="https://en.wikipedia.org/wiki/Italo_Calvino">Italo Calvino</a>, Invisible Cities</em></p>
 
-<p><img src="/assets/images/02.jpg" alt="opendot-venice" /></p>
-
-<p>The idea is to create an imaginary city from a hand-drawn sketch. Trained with aerial images of real cities, a neural network can transform this into a realistic bird-eye-view city.
-Then, switching between different cities references it would be possible to generate different views of the same imaginary city.</p>
-
 <p>A project made during “Machine Learning for Artists workshop” with <a href="https://github.com/genekogan">Gene Kogan</a> @<a href="http://www.opendotlab.it">Opendotlab</a></p>
 
-<p><img src="/assets/main.png" alt="opendot-venice" /></p>
+<div class="site-content-imgs">
+  <p><a href="/assets/images/LA-33_8203--118_1651--176_00.jpg"><img src="/assets/images/LA-33_8203--118_1651--176_00.jpg" alt="image" /></a></p>
+</div>
+
+<p>In this project, we <a href="/ml4a-invisible-cities/implementation/">trained a neural network</a> to translate map tiles into generative satellite images. We trained individual models for several cities–Milan, Venice, and Los Angeles–allowing us to do city map style transfer (example above) by applying the aerial model of one city onto the map tiles of another.</p>
+
+<p>Also, we can create imaginary cities by hand-drawing sketches and feeding them to the generative model.</p>
+
+<div class="site-content-imgs">
+  <p><a href="/assets/main.png"><img src="/assets/main.png" alt="image" /></a></p>
+</div>
+
+<p>A gallery with more samples can be <a href="/ml4a-invisible-cities/implementation/">found here</a>.</p>
+
+<p>The project was inspired by the 1972 book <a href="https://en.wikipedia.org/wiki/Invisible_Cities">Invisible Cities (Le città invisibili)</a> by <a href="https://en.wikipedia.org/wiki/Italo_Calvino">Italo Calvino</a>, which explores the imaginary and often magical cities of the Mongol Empire, framed as a poetic and surreal conversation between the explorer Marco Polo and the emperor Kublai Khan.</p>
 
       </div>
       <!-- site-content -->

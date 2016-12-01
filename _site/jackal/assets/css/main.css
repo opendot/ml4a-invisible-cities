@@ -467,6 +467,15 @@ kbd {
     .site {
       max-width: 748px; } }
 
+.site-content-imgs {
+  margin-left: -250px;
+  margin-right: -250px; }
+
+@media (max-width: 767px) {
+  .site-content-imgs {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%; } }
 @media (min-width: 480px) {
   .site {
     padding: 0 2rem; } }
@@ -515,6 +524,9 @@ kbd {
 
   .site-nav a {
     margin-right: 1.5rem; } }
+.site-nav a {
+  font-size: 0.8rem; }
+
 @media (min-width: 768px) {
   .site-logo {
     width: 20rem;
@@ -524,8 +536,7 @@ kbd {
     float: right;
     width: 50%;
     margin-top: 0.5rem;
-    justify-content: space-around;
-    font-size: 1rem; }
+    justify-content: space-around; }
     .site-nav a {
       margin-right: 0;
       padding: 0.25rem 0.5rem; }
