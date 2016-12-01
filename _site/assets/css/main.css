@@ -467,6 +467,9 @@ kbd {
     .site {
       max-width: 748px; } }
 
+@media (min-width: 480px) {
+  .site {
+    padding: 0 2rem; } }
 .site-content-imgs {
   margin-left: -250px;
   margin-right: -250px; }
@@ -476,9 +479,6 @@ kbd {
     margin-left: 0;
     margin-right: 0;
     max-width: 100%; } }
-@media (min-width: 480px) {
-  .site {
-    padding: 0 2rem; } }
 .site-header {
   margin: 3rem 0 1.5rem; }
   .site-header::after {
