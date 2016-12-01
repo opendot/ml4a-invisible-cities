@@ -27,4 +27,4 @@ Using this process, we trained generative models on map tiles from several citie
 </div>
 
 
-To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field, a dumpster, or many other unexpected objects. Curiously, the model of Venice learned to hallucinate fake boats in the canals, where none had been present in the original images!
+To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field, a dumpster, or many other unexpected objects. Curiously, the model of Venice learned to hallucinate fake boats in the canals, where none had been present in the original images! 
