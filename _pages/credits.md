@@ -11,4 +11,4 @@ All credit for the algorithm development to “Image-to-Image Translation Using 
 
 The dataset of satellite imagery and map tiles was downloaded from [Mapbox](http://www.mapbox.com).
 
-Orignal data [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright/en).
+Original data [© OpenStreetMap contributors](https://www.openstreetmap.org/copyright/en).
