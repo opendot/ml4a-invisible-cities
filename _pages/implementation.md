@@ -11,7 +11,7 @@ We were fascinated by the possibility of generating new and non-existent but rea
 ### Dataset
 Taking inspiration from the given examples, we applied a pre-defined color scheme to geographic data ([OpenStreetMap](http://www.openstreetmap.org)) using [Mapbox Studio](https://www.mapbox.com): roads, green spaces, buildings, water were styled with different colours (black, green, red, blue), so that the neural network (NN) could compare these to aerial images and learn the correspondence between them.
 
-<a href="{{ site.baseurl }}/assets/Venice-LA01.jpg"><img src="{{ site.baseurl }}/assets/Venice-LA01.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/groundtruth.jpg"><img src="{{ site.baseurl }}/assets/images/groundtruth.jpg" alt="image" /></a>
 
 ### Training, evaluating, running
 We then used [vvvv](https://vvvv.org) as a tool to collect both satellite imagery and the associated labeled map tiles. We trained a [conditional generative adversarial network](https://arxiv.org/pdf/1611.07004v1.pdf), using [pix2pix](https://github.com/phillipi/pix2pix) to reconstruct the satellite imagery from its map tiles. The sample below on the right shows the reconstructed sattelite image of the given map tile, closely resembling to the original on the left.
