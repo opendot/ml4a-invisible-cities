@@ -12,6 +12,21 @@
   }
 }
 
+
+// IMAGES
+.site-content-imgs{
+  margin-left:-250px;
+  margin-right:-250px
+}
+
+@include mq-down(sm){
+  .site-content-imgs{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
 // SITE HEADER ====================================
 
 .site-header {
