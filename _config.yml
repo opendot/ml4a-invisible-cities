@@ -41,6 +41,10 @@ navigation:
   - title: Credits
     url: /credits/
     desc: credits
+  - title: Press
+    url: /press/
+    desc: press
+
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:
