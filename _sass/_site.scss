@@ -12,6 +12,21 @@
   }
 }
 
+
+// IMAGES
+.site-content-imgs{
+  margin-left:-250px;
+  margin-right:-250px
+}
+
+@include mq-down(sm){
+  .site-content-imgs{
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+
 // SITE HEADER ====================================
 
 .site-header {
@@ -69,10 +84,17 @@
   .site-title {
     margin-bottom: $spacer1;
   }
-
   .site-nav a {
     margin-right: $spacer1;
   }
+}
+
+@include mq-up(xs) {
+
+  .site-nav a {
+    font-size: 0.8rem;
+  }
+
 }
 
 @include mq-up(md) {
@@ -87,7 +109,6 @@
     width: 50%;
     margin-top: $spacer0;
     justify-content: space-around;
-    font-size: 1rem;
 
     a {
       margin-right: 0;

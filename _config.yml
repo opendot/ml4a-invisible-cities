@@ -3,9 +3,9 @@
 # Site settings
 title: Invisible Cities               # used for the html title of every page
 desc: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Generating satellite images of imaginary cities with a conditional generative adversarial network. 
+  A project by Gene Kogan, Gabriele Gambotto, Ambhika Samsen, Andrej Boleslavský, Michele Ferretti, Damiano Gui, Fabian Frei.
+  Based on “Image-to-Image Translation Using Conditional Adversarial Networks” by Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros published in arxiv, 2016.
 
 url: ml4a-invisible-cities     # put your website hosting url here
 baseurl: ''                 # the subpath of your site, e.g. /blog
@@ -41,6 +41,10 @@ navigation:
   - title: Credits
     url: /credits/
     desc: credits
+  - title: Press
+    url: /press/
+    desc: press
+
 
 # Used by Jekyll to recognize what is a post and what is a page
 defaults:
