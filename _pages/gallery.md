@@ -15,7 +15,7 @@ With this technique, we fed map tiles of one city to the generative model of ano
 <div class="site-content-imgs">
 <a href="{{ site.baseurl }}/assets/images/venice_sat_draw_8k_18_mix_001.jpg"><img src="{{ site.baseurl }}/assets/images/venice_sat_draw_8k_18_mix_001.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/la_sat_draw_8k_18_mix_000.jpg"><img src="{{ site.baseurl }}/assets/images/la_sat_draw_8k_18_mix_000.jpg" alt="image" /></a>
-<a href="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg" alt="image" /></a>
+<a href="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_00.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8203--118_1651--176_000.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/LA-33_8207--118_1596--176_020.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8207--118_1596--176_020.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/LA-33_8285--118_0928--176_049.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8285--118_0928--176_049.jpg" alt="image" /></a>
 <a href="{{ site.baseurl }}/assets/images/LA-33_8341--118_2097--176_065.jpg"><img src="{{ site.baseurl }}/assets/images/LA-33_8341--118_2097--176_065.jpg" alt="image" /></a>
