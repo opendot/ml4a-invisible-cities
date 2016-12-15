@@ -26,5 +26,10 @@ Using this process, we trained generative models on map tiles from several citie
 <a href="{{ site.baseurl }}/assets/images/invisible_cities_patchwork_02.jpg"><img src="{{ site.baseurl }}/assets/images/invisible_cities_patchwork_02.jpg" alt="image" /></a>
 </div>
 
-
 To encompass the variability of all geographic features, we left the background as plain white. This translated to unexpected results as the NN could interpret the same white patch of land as an airport, a maize field, a dumpster, or many other unexpected objects. Curiously, the model of Venice learned to hallucinate fake boats in the canals, where none had been present in the original images!
+
+### Interactive drawing interface
+
+An online drawing interface was developed during a workshop the following week in Seoul, South Korea. It was built with node and [p5.js](http://www.p5js.org), allowing a viewer to interactively draw a map of roads, buildings, water, and parks and have it rendered live into the style of Seoul. The below video shows it in action. Source code [available here](https://github.com/genekogan/InvisibleCities).
+
+<center><iframe src="https://player.vimeo.com/video/194531286" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
