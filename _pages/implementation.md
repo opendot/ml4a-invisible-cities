@@ -32,4 +32,4 @@ To encompass the variability of all geographic features, we left the background 
 
 An online drawing interface was developed during a workshop the following week in Seoul, South Korea. It was built with node and [p5.js](http://www.p5js.org), allowing a viewer to interactively draw a map of roads, buildings, water, and parks and have it rendered live into the style of Seoul. The below video shows it in action. Source code [available here](https://github.com/genekogan/InvisibleCities).
 
-<center><iframe src="https://player.vimeo.com/video/194531286" width="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
+<center><iframe src="https://player.vimeo.com/video/194531286" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></center>
