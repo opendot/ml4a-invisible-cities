@@ -13,3 +13,4 @@ permalink: /press/
  - [Fastco Design](https://www.fastcodesign.com/3066061/this-neural-network-dreams-in-cities)
  - [AlphaR](http://www.alphr.com/art/1004849/making-imaginary-cities-with-doodles-and-neural-networks)
  - [DigitalTrends](http://www.digitaltrends.com/cool-tech/imaginary-cities-neural-network/)
+ - [NYMag](http://nymag.com/selectall/2017/03/pix2pix-cat-drawing-tool-is-ai-at-its-best.html)
